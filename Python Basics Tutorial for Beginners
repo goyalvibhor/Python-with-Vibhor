@@ -1,0 +1,20 @@
+Here is the Code snippet below that I used in this tutorial:
+
+
+print("Hello World")
+Hello World
+
+x = 3
+y = 4
+if x > y:
+    print("x is greater than y")
+elif x == y:
+    print("x is equal to y")
+else:
+    print("x is smaller than y")
+x is smaller than y
+
+a = 5
+b = 5.5
+print( a + int (b))
+10
