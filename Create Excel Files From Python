@@ -1,0 +1,30 @@
+Uses openpyxl to generate "numbers.xlsx" (a basic spreadsheet)
+"""
+
+import openpyxl as px
+
+WW = px.Workbook()
+pp = WW.create_sheet('Numbers')
+p
+
+f = {'A':1,'B':2,'C':3,'D':4,'E':5,'F':6}
+
+for (i,j) in f.items():
+	coord = str(i)+str(1)
+	val = "col" + str(i)
+	print (coord, " = ", val)
+  
+  A1 = colA
+
+B1 = colB
+
+C1 = colC
+
+D1 = colD
+
+E1 = colE
+
+F1 = colF
+
+pp.cell(1,1).value = val
+WW.save('numbers.xlsx')
